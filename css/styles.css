@@ -2,3 +2,83 @@ head { background;
 font-family: "Roboto", sans-serif;
 second-family: "Raleway", sans-serif;
 }
+.title,h1 {
+Family: Roboto;
+Weight: Bold;
+Size: 56px;
+Letter Spacing: 2%;
+Line Height: 60px;
+text-align: center;
+color: #fff;
+}
+.h2 {
+Family: Roboto;
+Weight: Bold;
+Size: 36px;
+Letter Spacing: 2%;
+}
+h3 {
+Family: Roboto;
+Weight: Medium;
+Size: 20px;
+Letter Spacing: 2%;
+}
+.body {
+Family: Roboto;
+Weight: Regular;
+Size: 16px;
+Line Height: 24px;
+Letter Spacing: 2%;
+}
+.button {
+Family: Roboto;
+Weight: Medium;
+Size: 16px;
+Line Height: 24px;
+Letter Spacing: 4%;
+color: #fff;
+}
+.link {
+Family: Roboto;
+Weight: Regular;
+Size: 12px;
+Line Height: 16px;
+Letter Spacing: 4%;
+Decoration: Underline;
+}
+.navigation{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.contacts {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;    
+}
+.Features {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;    
+}
+.team {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;   
+}
+.p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
