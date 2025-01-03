@@ -1,84 +1,101 @@
-head { background;
-font-family: "Roboto", sans-serif;
-second-family: "Raleway", sans-serif;
+.index {
+  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
 }
-.title,h1 {
-Family: Roboto;
-Weight: Bold;
-Size: 56px;
-Letter Spacing: 2%;
-Line Height: 60px;
-text-align: center;
-color: #fff;
+.name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.title,
+h1 {
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
 }
 .h2 {
-Family: Roboto;
-Weight: Bold;
-Size: 36px;
-Letter Spacing: 2%;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 36px;
+  letter-spacing: 2%;
 }
 h3 {
-Family: Roboto;
-Weight: Medium;
-Size: 20px;
-Letter Spacing: 2%;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 20px;
+  letter-spacing: 2%;
 }
 .body {
-Family: Roboto;
-Weight: Regular;
-Size: 16px;
-Line Height: 24px;
-Letter Spacing: 2%;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+  background-color: #ffffff;
 }
 .button {
-Family: Roboto;
-Weight: Medium;
-Size: 16px;
-Line Height: 24px;
-Letter Spacing: 4%;
-color: #fff;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: #fff;
 }
 .link {
-Family: Roboto;
-Weight: Regular;
-Size: 12px;
-Line Height: 16px;
-Letter Spacing: 4%;
-Decoration: Underline;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 12px;
+  font-size: 16px;
+  letter-spacing: 4%;
+  text-decoration: Underline;
 }
-.navigation{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
+.navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .contacts {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;    
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .Features {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;    
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .team {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: center;
-color: #434455;   
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
 }
 .p {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.address {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
