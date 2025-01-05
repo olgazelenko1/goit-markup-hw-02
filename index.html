@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio — Advanced Open Source Website Builder</title>
-    <link real="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link real="stylesheet" href="./css/modern-normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,35 +18,45 @@
   <body>
     <header>
       <nav>
-        <a class="name" href="our-portfolio.html">WebStudio></a>
+        <a class="logo" href="our-portfolio.html"
+          >Web<span class="accent">Studio</span></a
+        >
 
-        <ul class="navigation">
-          <li><a href="./index.html"">Studio</a></li>
+        <ul>
+          <li><a href="./index.html" class="navigation">Studio</a></li>
           <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a href="" class="navigation">Contacts</a></li>
         </ul>
       </nav>
 
       <address class="contacts">
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="contacts1" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contacts1" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
 
     <!-- Вміст-->
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="solutions">
+        <h1 class="header1">Effective Solutions for Your Business</h1>
+        <button type="name-button">Order Service</button>
       </section>
 
       <section>
         <h2>Advantages</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
+            <h3 class="header3">Strategy</h3>
             <p class="Features">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
@@ -76,18 +86,18 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Our Team</h2>
+      <section class="team1">
+        <h2 class="hader2">Our Team</h2>
         <ul>
-          <li>
+          <li class="list">
             <img
               src="./images/Frame4.jpg"
               alt="Mark Guerrero"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p class="team">Product Designer</p>
+            <h3 class="header3">Mark Guerrero</h3>
+            <p class="info">Product Designer</p>
           </li>
           <li>
             <img
@@ -96,8 +106,8 @@
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p class="team">Frontend Developer</p>
+            <h3 class="header3">Tom Ford</h3>
+            <p class="info">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -106,8 +116,8 @@
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p class="team">Marketing</p>
+            <h3 class="header3">Camila Garcia</h3>
+            <p class="info">Marketing</p>
           </li>
           <li>
             <img
@@ -116,8 +126,8 @@
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p class="team">UI Designer</p>
+            <h3 class="header3">Daniel Wilson</h3>
+            <p class="info">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -125,9 +135,9 @@
 
     <!--Підвал-->
 
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="about">
+      <a class="logo">Web<span class="logo2">Studio</span></a>
+      <p class="info">
         Increase the flow of customers and sales for your business with digital
         marketing &#38; growth solutions.
       </p>
