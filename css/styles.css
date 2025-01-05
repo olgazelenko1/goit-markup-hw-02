@@ -1,5 +1,5 @@
 .body {
-  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   font-weight: Regular;
   font-size: 16px;
   line-height: 24px;
@@ -7,7 +7,6 @@
   color: #434455;
   background-color: #ffffff;
 }
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -26,12 +25,12 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  hover {
-    color: #404bbf;
-  }
-  focus {
-    color: #404bbf;
-  }
+}
+.navigation .link:hover {
+  color: #404bbf;
+}
+.navigation .link:focus {
+  color: #404bbf;
 }
 .contacts {
   font-weight: 400;
@@ -41,52 +40,40 @@
   color: #434455;
   font-style: normal;
 }
-.contacts1 {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  hover {
-    color: #404bbf;
-  }
-  focus {
-    color: #404bbf;
-  }
+.contacts .link:hover {
+  color: #404bbf;
+}
+.contacts .link:focus {
+  color: #404bbf;
 }
 .solutions {
   background-color: #2e2f42;
 }
 .header1 {
-  font-family: Roboto;
-  font-weight: Bold;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  line-height: 60px;
   text-align: center;
   color: #ffffff;
 }
 .name {
   background-color: #4d5ae5;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  line-height: 24px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: #ffffff;
-  hover {
-    color: #404bbf;
-  }
-  focus {
-    color: #404bbf;
-  }
   cursor: pointer;
+}
+.name:hover {
+  color: #404bbf;
+}
+.name:focus {
+  color: #404bbf;
 }
 
 .header2 {
-  font-family: Roboto;
-  font-weight: Medium;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -94,16 +81,13 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
-.header3 {
+header3 {
   font-weight: 500;
-  font-family: Roboto;
-  font-weight: Bold;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
 .list {
   background-color: #ffffff;
 }
@@ -133,4 +117,9 @@
 }
 .logo2 {
   color: #f4f4fd;
+}
+.fot {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
