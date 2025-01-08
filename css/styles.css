@@ -43,6 +43,17 @@ ul {
 .navigation:focus {
   color: #404bbf;
 }
+.navigation-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.navigation-list:hover,
+.navigation-list:focus {
+  color: #404bbf;
+}
 
 .contacts {
   font-weight: 400;
@@ -61,7 +72,7 @@ ul {
 .solutions {
   background-color: #2e2f42;
 }
-.header1 {
+.hero-solutions {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -140,7 +151,7 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -148,7 +159,7 @@ ul {
 .logo-name {
   color: #f4f4fd;
 }
-.fot {
+.footer-info {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
