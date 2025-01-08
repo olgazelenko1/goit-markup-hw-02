@@ -22,10 +22,14 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-#logo1 {
-  color: #2e2f42;
-}
-.accent {
+
+.logo-name1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #2e2f42;
 }
 .navigation {
@@ -49,9 +53,7 @@ ul {
   color: #434455;
   font-style: normal;
 }
-#adress1 {
-  color: #434455;
-}
+
 .contacts .link:hover {
   color: #404bbf;
 }
@@ -62,6 +64,7 @@ ul {
   background-color: #2e2f42;
 }
 .header1 {
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -83,19 +86,21 @@ ul {
   background-color: #404bbf;
 }
 
-.header2 {
+.hero2 {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
-.header3 {
+.hero {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
 }
 .list {
@@ -105,7 +110,7 @@ ul {
 .team1 {
   background-color: #f4f4fd;
 }
-.info {
+.hero-info {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -115,6 +120,7 @@ ul {
 }
 
 .hero4 {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -132,10 +138,21 @@ ul {
 .about {
   background-color: #2e2f42;
 }
+.logo1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
 .logo-name {
   color: #f4f4fd;
 }
 .fot {
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
