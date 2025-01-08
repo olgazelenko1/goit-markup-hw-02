@@ -39,12 +39,11 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.navigation .link:hover {
+.navigation:hover,
+.navigation:focus {
   color: #404bbf;
 }
-.navigation .link:focus {
-  color: #404bbf;
-}
+
 .contacts {
   font-weight: 400;
   font-size: 16px;
@@ -54,12 +53,11 @@ ul {
   font-style: normal;
 }
 
-.contacts .link:hover {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
-.contacts .link:focus {
-  color: #404bbf;
-}
+
 .solutions {
   background-color: #2e2f42;
 }
@@ -81,8 +79,8 @@ ul {
   color: #ffffff;
   cursor: pointer;
 }
-.button-name-link:hover,
-.button-name-link:focus {
+.button-name:hover,
+.button-name:focus {
   background-color: #404bbf;
 }
 
