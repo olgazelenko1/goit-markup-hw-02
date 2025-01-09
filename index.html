@@ -5,38 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio — Advanced Open Source Website Builder</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/modern-normalize.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html"
+    <header class="page-header">
+      <nav class="header-nav">
+        <a class="logo header-logo" href="./index.html"
           >Web<span class="logo-name1">Studio</span></a
         >
         <ul class="navigation">
-          <li><a href="./index.html" class="navigation-list">Studio</a></li>
-          <li><a href="" class="navigation-list">Portfolio</a></li>
-          <li><a href="" class="navigation-list">Contacts</a></li>
+          <li class="nav-item">
+            <a class="navigation-list" href="./index.html">Studio</a>
+          </li>
+          <li class="nav-item">
+            <a class="navigation-list" href="">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="navigation-list" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
 
       <address class="contacts">
-        <ul>
-          <li>
-            <a class="contacts" href="mailto:info@devstudio.com"
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="contacts" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="contacts-item">
+            <a class="contacts-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -50,9 +66,9 @@
         <button class="button-name">Order Service</button>
       </section>
 
-      <section>
+      <section class="advantages">
         <h2>Advantages</h2>
-        <ul>
+        <ul class="advantages-list">
           <li>
             <h3 class="hero">Strategy</h3>
             <p class="hero-info">
@@ -87,50 +103,50 @@
       <section class="team1">
         <h2 class="hero2">Our Team</h2>
         <ul>
-          <li class="list">
+          <li class="team1-list">
             <img
               src="./images/Frame4.jpg"
               alt="Mark Guerrero"
               width="264"
               height="260"
             />
-            <h3 class="header3">Mark Guerrero</h3>
+            <h3 class="hero">Mark Guerrero</h3>
             <p class="hero-info">Product Designer</p>
           </li>
-          <li class="list">
+          <li class="team1-list">
             <img
               src="./images/Frame3.jpg"
               alt="Tom Ford"
               width="264"
               height="260"
             />
-            <h3 class="header3">Tom Ford</h3>
+            <h3 class="hero">Tom Ford</h3>
             <p class="hero-info">Frontend Developer</p>
           </li>
-          <li class="list">
+          <li class="team1-list">
             <img
               src="./images/Frame2.jpg"
               alt="Camila Garcia"
               width="264"
               height="260"
             />
-            <h3 class="header3">Camila Garcia</h3>
+            <h3 class="hero">Camila Garcia</h3>
             <p class="hero-info">Marketing</p>
           </li>
-          <li class="list">
+          <li class="team1-list">
             <img
               src="./images/Frasme1.jpg"
               alt="Daniel Wilson"
               width="264"
               height="260"
             />
-            <h3 class="header3">Daniel Wilson</h3>
+            <h3 class="hero">Daniel Wilson</h3>
             <p class="hero-info">UI Designer</p>
           </li>
         </ul>
       </section>
 
-      <section>
+      <section class="portfolio">
         <h4 class="hero4">Our Portfolio</h4>
         <ul>
           <li>
@@ -140,7 +156,7 @@
               width="360"
               height="300"
             />
-            <h3 class="hero3">Banking App</h3>
+            <h3 class="hero">Banking App</h3>
             <p class="hero-info">App</p>
           </li>
           <li>
@@ -150,7 +166,7 @@
               width="360"
               height="300"
             />
-            <h3 class="hero3">Cashless Payment</h3>
+            <h3 class="hero">Cashless Payment</h3>
             <p class="hero-info">Marketing</p>
           </li>
           <li>
@@ -160,7 +176,7 @@
               width="360"
               height="300"
             />
-            <h3 class="hero3">Meditation App</h3>
+            <h3 class="hero">Meditation App</h3>
             <p class="hero-info">App</p>
           </li>
           <li>
@@ -170,7 +186,7 @@
               width="360"
               height="300"
             />
-            <h3 class="hero3">Taxi Service</h3>
+            <h3 class="hero">Taxi Service</h3>
             <p class="hero-info">Marketing</p>
           </li>
           <li>
@@ -180,7 +196,7 @@
               width="360"
               height="300"
             />
-            <h3 class="hero3">Screen Illustrations</h3>
+            <h3 class="hero">Screen Illustrations</h3>
             <p class="hero-info">Design</p>
           </li>
           <li>
@@ -190,7 +206,7 @@
               width="360"
               height="300"
             />
-            <h3 class="hero3">Online Courses</h3>
+            <h3 class="hero">Online Courses</h3>
             <p class="hero-info">Marketing</p>
           </li>
         </ul>
@@ -199,8 +215,8 @@
 
     <!--Підвал-->
 
-    <footer class="about">
-      <a class="logo1" href="./index.html"
+    <footer class="footer-name">
+      <a class="logo footer-logo" href="./index.html"
         >Web<span class="logo-name">Studio</span></a
       >
       <p class="footer-info">
