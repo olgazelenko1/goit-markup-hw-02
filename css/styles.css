@@ -97,11 +97,11 @@ ol {
   text-align: center;
   color: #2e2f42;
 }
-.team-one-list {
+.team-list {
   background-color: #ffffff;
 }
 
-.team-one {
+.team {
   background-color: #f4f4fd;
 }
 .hero-info {
@@ -113,7 +113,7 @@ ol {
   color: #434455;
 }
 
-.hero-four {
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
